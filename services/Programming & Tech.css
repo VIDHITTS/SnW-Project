@@ -86,18 +86,31 @@ body{
     width:85%;
 }
 .footer{
-    display: flex;
+    display: block;
     justify-content: space-around;
     align-items: center;
     margin-top: 30px;
     width:100%;
-    height:500px;
-    background-color: black;
+    height:375px;
+    background-color: rgba(84, 83, 83, 0.767);
 }
-.f1 ,.f2{
-    padding: 20px;
-    gap: 20px;
-    width:40%;
-    height:350px;
-    background-color: white;
+.info{
+    display: flex;
+}
+.socio{
+    display: flex;
+}
+.f1 ,.f2 ,.f3{
+    padding: 10px;
+    gap: 10px;
+    width: 25%;
+    height:300px;
+    background-color: transparent;
+}
+.p1 ,.p2 ,.p3{
+    text-align: center;
+    font-weight: bold;
+}
+p{
+    text-align: center; 
 }
