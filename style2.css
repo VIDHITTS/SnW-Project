@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .fonts{
   font-family: "Sixtyfour Convergence", sans-serif;
