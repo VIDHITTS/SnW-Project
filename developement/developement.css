@@ -58,6 +58,7 @@ body{
     top:180px;
     left:35%;
     color: white;
+    font-weight: 100px;
 }
 .t{
     text-align: center;
@@ -139,14 +140,14 @@ body{
 .socio{
     display: flex;
 }
-.f1 ,.f2 ,.f3{
+.f1 ,.f2 ,.f3 ,.f4{
     padding: 10px;
     gap: 10px;
     width: 25%;
     height:300px;
     background-color: transparent;
 }
-.p1 ,.p2 ,.p3{
+.p1 ,.p2 ,.p3 ,.p4{
     text-align: center;
     font-weight: bold;
     color: white;
