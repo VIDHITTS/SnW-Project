@@ -7,14 +7,27 @@
     <link rel="stylesheet" href="aboutstyle.css">
 </head>
 <body>
-    <nav class="navigation-bar">
-        <div> <a href="index.html"><img src="aboutimages/websitelogo.png" class="img"></a></div>
-        <div class="home"><a class="home" href="index.html">Home</a></div>
-        <div class="about"><a class="about" href="about.html">About</a></div>
-        <div class="hire-here"><a class="hire-here" href="hire.html">Hire Freelancers</a></div>
-        <div class="join-us"><a class="join-us" href="join.html">Join as a Freelancer</a></div>
-        <div class="contactus">Contact</div>
-    </nav>
+  <nav class="nav">
+    <div class="nav-bar">
+      <a class="nav-name">
+        <img class="nav-img" src="websitelogo.png">PIXEL SQUARE</a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="hire.html" class="nav-link">Hire Freelancers</a></li>
+        <li><a href="join.html" class="nav-link">Join as Freelancer</a></li>
+        <li class="dropdown">
+          <a href="#" class="nav-link">Our Services</a>
+          <ul class="dropdown-menu">
+            <li><a href="developement/developement.html" class="dropdown-link">Developement & IT</a></li>
+            <li><a href="graphic-designing/graphic.html" class="dropdown-link">Graphics Designing</a></li>
+            <li><a href="digitalmarketing/digitalmarketing.html" class="dropdown-link">Digital Marketting</a></li>
+            <li><a href="finance/finance.html" class="dropdown-link">Finance Services</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
     <div class="container" id="top">
         <div><h1 class="tagline">Connecting skills with success</h1></div>
         <div>
@@ -222,11 +235,10 @@
             <div class="info">
                 <div class="f1">
                     <p class="p1">Categories</p>
-                    <p class="lala">Programming & Tech</p>
-                    <p class="lala">Finance</p>
-                    <p class="lala">Digital Marketing</p>
-                    <p class="lala">Video & Animation</p>
-                    <p class="lala">Graphics & Design</p>
+                    <a href="developement/developement.html" target="_blank" class="klp"><p class="lala op">Development & IT</p></a>
+                    <a href="finance/finance.html" target="_blank" class="klp"><p class="lala op">Financial Services</p></a>
+                    <a href="digitalmarketing/digitalmarketing.html" target="_blank" class="klp"><p class="lala op">Digital Marketing</p></a>
+                    <a href="graphic-designing/graphic.html" target="_blank" class="klp"><p class="lala op">Graphics & Design</p></a>
                 </div>
                 <div class="f2">
                     <p class="p2">For Clients</p>
@@ -242,27 +254,19 @@
                     <p class="lala">Trust & Safety</p>
                     <p class="lala">pixel sq. Learn</p>
                 </div>
-                <div class="f4">
-                  <p class="p4">Our Financers</p>
-                  <p class="lala">Brought to u by wvp</p>
-                  <p class="lala">Supported by Newton School of Technology</p>
-                  <p class="lala">Maintained by aerogram</p>
-                  
-              </div>
             </div>
-            <div class="socio">
+            <div class="line"></div>
+            <div class="contactus">
+                <p class="email">
+                    Contact us: <a href="mailto:support@pixelsquare.com" class="emaillink">support@pixelsquare.com</a>
+                </p>
+                <div class="sicons">
+                    <a href="https://www.facebook.com" target="_blank" class="slink">Facebook</a>
+                    <a href="https://www.twitter.com" target="_blank" class="slink">Twitter</a>
+                    <a href="https://www.instagram.com" target="_blank" class="slink">Instagram</a>
+                </div>
             </div>
         </footer>
-          
-        
-            
-        
-        
-        
-
-
-        
-        
     </div> 
 </body>
 </html>
