@@ -160,7 +160,10 @@ body{
     margin-left: 5%;
     width: 90%;
     height: 400px;
-    background-color: #2E2E2E;
+    background-color: #f3f3d7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0.1, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .star1{
     width:40%;
@@ -170,7 +173,7 @@ body{
 .star2{
     width:50%;
     height:100%;
-    background-color: #2e8b57;
+    background-color:white;
 }
 .line{
     margin-left: 5%;
