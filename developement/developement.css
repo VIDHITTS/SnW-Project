@@ -165,14 +165,12 @@ body{
 .star1{
     width:40%;
     height:90%;
-    background-color: #2e8b57;
     border-radius: 10px;
 }
 .star2{
     width:50%;
     height:100%;
     background-color: #2e8b57;
-    border-radius: 10px;
 }
 .line{
     margin-left: 5%;
