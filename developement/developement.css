@@ -192,12 +192,6 @@ font-size: 25px;
 font-weight: 600;
 margin-top: 0px;
 }
-.line{
-    margin-left: 5%;
-    width:90%;
-    margin-top: 20px;
-    height:5px;
-}
 .footer {
     display: flex;
     flex-direction: column;
