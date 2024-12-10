@@ -142,8 +142,8 @@ body{
 }
 .divc{
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
 }
 .branch1 ,.branch2 ,.branch3 ,.branch4{
     width:100%;
