@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join as a Freelancer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background">
+    <div class="words">
+      <span>Freelancing</span>
+      <span>Creativity</span>
+      <span>Web Development</span>
+      <span>Graphic Design</span>
+      <span>Innovation</span>
+      <span>Remote Work</span>
+      <span>Success</span>
+      <span>Programming</span>
+      <span>Writing</span>
+      <span>Design</span>
+      <span>Marketing</span>
+      <span>Entrepreneurship</span>
+      <span>Projects</span>
+      <span>Skills</span>
+      <span>Freedom</span>
+    </div>
+  </div>
+  <div class="mainform">
+    <h1>Join as a Freelancer</h1>
+    <form action="#" method="POST" class="freelancer">
+      <div class="form">
+        <label for="full-name">Full Name</label>
+        <input type="text" id="full-name" name="full_name" placeholder="Enter your full name" required>
+      </div>
+      <div class="form">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form">
+        <label for="skills">Skills</label>
+        <textarea id="skills" name="skills" placeholder="List your skills (e.g. Web Development, Graphic Design)" rows="4" required></textarea>
+      </div>
+      <div class="form">
+        <button type="submit" class="submit-btn">Join Now</button>
+      </div>
+    </form>
+  </div>
+  <script>
+    document.querySelector(".freelancer-form").addEventListener("submit", function(event) {
+      event.preventDefault(); 
+      document.querySelector(".form-container").style.display = "none";
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc; 
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+.words span{
+    position: absolute;
+    font-weight: bold;
+    opacity: 0.2;
+    color: #2e8b57; /* Sea green */
+    animation: floatWords 10s infinite;
+}
+.words span:nth-child(1){
+    top: 10%; left: 20%; font-size: 2.5rem; animation-delay: 0s;
+}
+.words span:nth-child(2){
+    top: 20%; left: 40%; font-size: 2rem; animation-delay: 1s;
+}
+.words span:nth-child(3){
+    top: 15%; left: 60%; font-size: 3rem; animation-delay: 2s;
+}
+.words span:nth-child(4){
+    top: 40%; left: 10%; font-size: 1.5rem; animation-delay: 3s;
+}
+.words span:nth-child(5){
+    top: 50%; left: 70%; font-size: 2rem; animation-delay: 4s;
+}
+.words span:nth-child(6){
+    top: 70%; left: 30%; font-size: 2.5rem; animation-delay: 5s;
+}
+.words span:nth-child(7){
+    top: 60%; left: 50%; font-size: 1.8rem; animation-delay: 6s;
+}
+.words span:nth-child(8){
+    top: 80%; left: 15%; font-size: 2.2rem; animation-delay: 7s;
+}
+.words span:nth-child(9){
+    top: 75%; left: 75%; font-size: 2rem; animation-delay: 8s;
+}
+.words span:nth-child(10){
+    top: 20%; left: 80%; font-size: 1.5rem; animation-delay: 9s;
+}
+@keyframes floatWords{
+0%{
+      transform: translateY(0) scale(1);
+      opacity: 0.2;
+}
+50%{
+      transform: translateY(-20px) scale(1.1);
+      opacity: 0.5;
+}
+100%{
+      transform: translateY(0) scale(1);
+      opacity: 0.2;
+}
+}
+.mainform{
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    color: #2e8b57; /* Sea green text */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 2;
+}
+h1{
+    margin-bottom: 20px;
+    color: #2e8b57;
+}
+  
+.freelancer .form{
+    margin-bottom: 15px;
+    text-align: left;
+}
+  
+.freelancer label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+  
+.freelancer input,
+.freelancer textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+  
+textarea{
+    resize: vertical;
+}
+  
+button.submit-btn{
+    background-color: #2e8b57;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+  
+button.submit-btn:hover{
+    background-color: #276648;
+}
+.mainform[style*="display: none"]{
+    display: block;
+    animation: fadeOut 0.5s forwards;
+}
+  
+@keyframes fadeOut{
+    0%{
+      opacity: 1;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+}
