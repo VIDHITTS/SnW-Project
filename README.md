@@ -1,4 +1,3 @@
-"""
 # Pixel Square
 
 Pixel Square is an online platform designed to empower freelancers and clients to collaborate seamlessly on projects. With a focus on high-quality services, it connects professionals in development, design, marketing, and financial consulting to businesses and individuals in need of expertise.
@@ -31,5 +30,4 @@ Contributions are welcome! Please fork the repository, create a new branch, and 
 ## Contact
 
 For support or inquiries, email: support@pixelsquare.com
-"""
 
