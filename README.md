@@ -16,7 +16,7 @@ Pixel Square is an online platform designed to empower freelancers and clients t
 
 ## How to Access
 
-Visit the website: [Pixel Square](https://pixel-square.netlify.app)
+Visit the website: [Pixel Square](https://pixel-square.netlify.app) .
 
 ## Technologies Used
 
